@@ -5,18 +5,20 @@ A command line banking ledger application written in Python, which allows users 
 ---
 ## Project Structure
 
+```text
 ├── tests/
 ├── transaction_processor/
 │   ├── __init__.py
 │   ├── errors.py
 │   ├── models.py
-|   ├── processor.py
-|   └── run_ledger_app.py
+│   ├── processor.py
+│   └── run_ledger_app.py
 ├── .gitignore
 ├── ledger.json
 ├── run.py
 ├── pyproject.toml
 └── README.md
+```
 
 ## Features
 
